@@ -1,0 +1,6 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop2       92M   92M     0 100% /snap/kotlin/43
+/dev/sda4        96M   31M   66M  32% /boot/efi
+tmpfs           3.2G  6.0M  3.2G   1% /run/user/1000
+This is a nice way to do things
+This is a sample file for testing code
