@@ -5,19 +5,37 @@ from collections import Counter
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        newDict = {}  
+        nums = list(dict.fromkeys(nums))
+
+        return nums
+        #return len(retVal), "nums = retVal  
+
+'''
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        newDict = {}
         for x in range(len(nums)):
             if nums[x] not in newDict:
                 newDict[nums[x]] = 1
             else:
-                newDict[nums[x]] = 1 
+                newDict[nums[x]] = 1
 
-        retVal = [] 
+        retVal = []
         for x,y in newDict.items():
-            retVal.append(x)  
+            retVal.append(x)
 
-        return (len(retVal),retVal)
+        return retVal
         #return len(retVal), "nums = retVal  
+
+
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        for i in range(len(nums)-1,0,-1):
+            if nums[i] == nums[i-1]:
+                del nums[i]
+        return len(nums)
+'''
+
 
 if __name__ == "__main__":
     #nums = [0,0,1,1,1,2,2,3,3,4]
