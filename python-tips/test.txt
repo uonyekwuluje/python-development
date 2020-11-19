@@ -1,0 +1,15 @@
+Filesystem      Size  Used Avail Use% Mounted on
+udev             16G     0   16G   0% /dev
+tmpfs           3.2G  2.2M  3.2G   1% /run
+/dev/sda2       220G   23G  186G  11% /
+tmpfs            16G  611M   16G   4% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs            16G     0   16G   0% /sys/fs/cgroup
+/dev/loop0      241M  241M     0 100% /snap/gnome-3-34-1804/24
+/dev/loop1       50M   50M     0 100% /snap/snap-store/433
+/dev/loop2       63M   63M     0 100% /snap/gtk-common-themes/1506
+/dev/loop3       55M   55M     0 100% /snap/core18/1705
+/dev/loop4       28M   28M     0 100% /snap/snapd/7264
+/dev/sda3       9.4G   13M  9.3G   1% /boot/efi
+/dev/sdb1       916G  589G  281G  68% /home/ucheonyekwuluje/dataDrive
+tmpfs           3.2G   40K  3.2G   1% /run/user/1000
